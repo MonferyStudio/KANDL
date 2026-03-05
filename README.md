@@ -1,10 +1,10 @@
-# StockOS
+# KANDL
 
 A roguelike stock trading idle game built with Flutter.
 
 ## About
 
-StockOS is a single-player incremental game where you trade stocks across 16 market sectors, manage a growing portfolio, and progress through prestige cycles with escalating financial targets. Values scale from humble dollars to absurdly large numbers using a custom BigNumber system.
+KANDL is a single-player incremental game where you trade stocks across 16 market sectors, manage a growing portfolio, and progress through prestige cycles with escalating financial targets. Values scale from humble dollars to absurdly large numbers using a custom BigNumber system.
 
 ## Features
 
