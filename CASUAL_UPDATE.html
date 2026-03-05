@@ -1,0 +1,222 @@
+<h1>KANDL - Casual Update</h1>
+<p><strong>Date:</strong> 2026-02-11<br>
+<strong>Version:</strong> 0.13</p>
+
+<hr>
+
+<h2>The Casual Update</h2>
+<p>Based on player feedback that the game felt more like a trading platform than a game, I've made a big pass to simplify the interface and make everything more approachable.</p>
+<p><em>Note: Most of this update was already in the works before launch, which is why it's coming so soon after release. Don't expect this pace to be the norm!</em></p>
+
+<hr>
+
+<h2>Simplified Vocabulary</h2>
+<p>The game now speaks your language! I've replaced confusing finance jargon with clear, friendly terms:</p>
+<ul>
+  <li><strong>Portfolio</strong> is now <strong>Fortune</strong></li>
+  <li><strong>P&amp;L</strong> is now <strong>Gains</strong></li>
+  <li><strong>Unrealized P&amp;L</strong> is now <strong>Current Gains</strong></li>
+  <li><strong>Place Order</strong> is now <strong>Invest</strong></li>
+  <li><strong>Stop Loss</strong> is now <strong>Loss Protection</strong></li>
+  <li><strong>Take Profit</strong> is now <strong>Profit Target</strong></li>
+  <li><strong>Avg Cost</strong> is now <strong>Buy Price</strong></li>
+  <li><strong>Market Value</strong> is now <strong>Current Value</strong></li>
+  <li><strong>Capital Allocation</strong> is now <strong>Your Money</strong></li>
+  <li><strong>Risk Metrics</strong> is now <strong>Risk Overview</strong></li>
+  <li><strong>Quota Failed</strong> is now <strong>Run Over</strong></li>
+  <li><strong>Quota Met</strong> is now <strong>Objective Met!</strong></li>
+  <li>Buy/Short buttons now simply say <strong>BUY</strong> and <strong>SHORT</strong> (no more "BUY LONG" / "SELL SHORT")</li>
+</ul>
+<p>All changes are reflected in both English and French.</p>
+
+<hr>
+
+<h2>Expert Mode</h2>
+<p>A new toggle in Settings lets you switch between casual and expert views:</p>
+<ul>
+  <li><strong>Casual mode (default):</strong> Clean, simplified interface showing only what matters</li>
+  <li><strong>Expert mode:</strong> Full trading platform experience with all indicators</li>
+</ul>
+<h3>What Expert Mode reveals:</h3>
+<ul>
+  <li><strong>Trading screen:</strong> Fee breakdown (subtotal + fee rows)</li>
+  <li><strong>Stock info:</strong> Market Cap, P/E Ratio, Trading Stats (Open/High/Low/Volume), Analyst Ratings, Technical Analysis (RSI, MA50, MA200), Historical Performance, 52-Week Range, Characteristics</li>
+  <li><strong>Positions:</strong> Average cost and market value columns</li>
+  <li><strong>Dashboard:</strong> Concentration risk, largest position details</li>
+  <li><strong>Sector info:</strong> Volatility, market correlation, Fed sensitivity</li>
+  <li><strong>Portfolio panel:</strong> Trading stats breakdown, portfolio breakdown details</li>
+</ul>
+
+<hr>
+
+<h2>Visual Improvements</h2>
+<ul>
+  <li><strong>Streak banners:</strong> When you hit a 3+ win streak, a glowing green banner with fire emojis appears in your dashboard. Lose streaks of 3+ get a skull banner too</li>
+  <li><strong>Cleaner position cards:</strong> Casual mode shows just shares, current price, gains, and gain % — no clutter</li>
+</ul>
+
+<hr>
+
+<h2>Localized Market Indicators</h2>
+<p>All market indicators are now fully translated (EN + FR) instead of being hardcoded in English:</p>
+<ul>
+  <li><strong>Market Regime:</strong> Strong Bull / Bull / Neutral / Bear / Strong Bear labels and descriptions</li>
+  <li><strong>Fear &amp; Greed Index:</strong> 5 tiers (Extreme Greed, Greed, Neutral, Fear, Extreme Fear) with actionable tips per tier</li>
+  <li><strong>Analyst Ratings:</strong> Strong Buy / Strong Sell consensus labels</li>
+  <li><strong>Midday News:</strong> Prefixes (Update, Correction, Breaking, Reversal, Recovery) now localized</li>
+</ul>
+
+<hr>
+
+<h2>Informant Tips in News Feed</h2>
+<p>When you purchase an informant tip, it now appears as a news item in your feed:</p>
+<ul>
+  <li>Distinct purple badge to distinguish from market/company news</li>
+  <li>Shows the stock name and bullish/bearish direction</li>
+  <li>No impact on price — purely informational for your records</li>
+</ul>
+
+<hr>
+
+<h2>Prestige Point Rebalance</h2>
+<p>Achievement PP rewards have been slowed down to make daily PP earnings feel more meaningful:</p>
+<table>
+  <tr><th>Tier</th><th>Before</th><th>After</th></tr>
+  <tr><td>Bronze 1-2</td><td>1, 2</td><td>1, 1</td></tr>
+  <tr><td>Silver 3-4</td><td>3, 5</td><td>2, 3</td></tr>
+  <tr><td>Gold 5-6</td><td>8, 12</td><td>5, 8</td></tr>
+  <tr><td>Platinum 7-8</td><td>20, 30</td><td>15, 25</td></tr>
+  <tr><td>Diamond 9-10</td><td>50, 100</td><td>40, 75</td></tr>
+</table>
+<p>Total from achievements: ~5,095 PP (down from ~6,730, ~24% reduction). Early tiers hit hardest so the first upgrades require more gameplay to unlock.</p>
+
+<hr>
+
+<h2>Robot Trader Improvements</h2>
+
+<h3>Removed Stock Assignment</h3>
+<p>Robots no longer need to be assigned to a specific stock. Each trade, the robot automatically picks a random unlocked company — simpler and better diversified.</p>
+
+<h3>New Budget Capacity System</h3>
+<p>Robot budgets are now based on a per-robot <strong>Budget Capacity</strong> upgrade instead of a percentage of net worth:</p>
+<ul>
+  <li><strong>Base:</strong> $100 max budget at level 0, doubling each level ($200, $400, $800...)</li>
+  <li><strong>Infinite upgrade:</strong> No level cap — keep upgrading to grow your robot's budget indefinitely</li>
+  <li><strong>Stable budget cap:</strong> Max budget no longer fluctuates with stock prices</li>
+  <li>Deep Pockets prestige upgrade still applies (+30% per level on top)</li>
+</ul>
+
+<h3>Upgrade Cost Rebalance</h3>
+<p>Robot upgrades now scale more aggressively to keep progression meaningful:</p>
+<ul>
+  <li><strong>Exponential by level:</strong> Each upgrade costs 1.5x more than the previous (stats) or 2x more (capacity)</li>
+  <li><strong>Per-robot multiplier:</strong> 2nd robot costs 2.5x more, 3rd costs 6x, 4th costs 15x, 5th costs 35x</li>
+  <li>Stats scale off peak net worth (2% base), capacity uses flat dollar costs ($50 base)</li>
+</ul>
+
+<h3>Redesigned Robot Cards</h3>
+<ul>
+  <li><strong>Budget progress bar:</strong> Visual bar showing current budget vs max capacity (e.g. "$500 / $800")</li>
+  <li><strong>Earnings section:</strong> "Wallet" renamed to "Earnings" — a dedicated box showing accumulated gains with an inline <strong>Collect</strong> button to transfer to your cash</li>
+  <li><strong>Capacity stat:</strong> New cyan stat bar showing your Budget Capacity level alongside the other 4 stats</li>
+  <li>Robot cards show <strong>Active</strong> (green badge) or sleeping status instead of company name</li>
+  <li>Removed assign button entirely — one less step to get your robot running</li>
+</ul>
+
+<h3>Robot Info Panel</h3>
+<p>The right-side info panel now shows robot-specific data when on the Robots tab:</p>
+<ul>
+  <li><strong>Overview:</strong> Total budget invested, total earnings ready, upgrade costs, total trades, win rate</li>
+  <li><strong>Daily Performance log:</strong> Net P&amp;L per day from trade history, grouped and color-coded</li>
+</ul>
+
+<h3>New Fund Dialog</h3>
+<p>Replaced the old percentage-based funding with a manual amount input:</p>
+<ul>
+  <li><strong>Text field</strong> for typing any amount</li>
+  <li><strong>Quick-add buttons:</strong> +$100, +$500, +$1K, +$5K, MAX</li>
+  <li>Shows current budget, max budget (per-robot), and available cash</li>
+  <li>Amount is clamped to what you can actually fund</li>
+</ul>
+
+<hr>
+
+<h2>Skip Quota</h2>
+<p>You can now pay your quota early! When your progress meets the target:</p>
+<ul>
+  <li>A pulsing <strong>SKIP</strong> button appears on the day/progress cards</li>
+  <li>Pays the quota immediately and restarts the cycle</li>
+  <li>Bonus: 15% on excess (vs 10% at end of cycle) — rewarding proactive play</li>
+  <li>Two new prestige upgrades boost the skip bonus further (Early Bird Bonus, Overachiever)</li>
+</ul>
+
+<hr>
+
+<h2>Game Speed Control</h2>
+<p>A speed button next to play/pause lets you control game pace:</p>
+<ul>
+  <li>Cycles through <strong>1x → 2x → 3x</strong> on tap</li>
+  <li>Visible on both the progress card and day card</li>
+  <li>Hidden when market is closed (end of day)</li>
+</ul>
+
+<hr>
+
+<h2>News Impact Rebalance</h2>
+<p>News events no longer always slam the market. A new rarity system makes most news mild, with occasional big movers:</p>
+<table>
+  <tr><th>Tier</th><th>Chance</th><th>Impact Range</th></tr>
+  <tr><td>Low</td><td>50%</td><td>0.1 – 0.3</td></tr>
+  <tr><td>Medium</td><td>30%</td><td>0.3 – 0.5</td></tr>
+  <tr><td>High</td><td>15%</td><td>0.5 – 0.7</td></tr>
+  <tr><td>Extreme</td><td>5%</td><td>0.7 – 1.0</td></tr>
+</table>
+<p>Before, company news always hit 0.6–1.0 impact. Now most news will barely move prices, making the game less RNG-driven and more skill-based. Gameplay effects (position limits, etc.) keep their fixed 0.8 impact.</p>
+
+<hr>
+
+<h2>Robot Trade Activity</h2>
+<p>Robots now show what they're doing in real time:</p>
+<ul>
+  <li><strong>Trade progress bar:</strong> A visual indicator showing when the next trade will happen during the day</li>
+  <li><strong>Trade history:</strong> Each robot card displays its last 5 trades with win/loss markers, ticker, amount, and day</li>
+  <li>Trade count shown as "X/Y trades" so you know how active your robot is</li>
+</ul>
+
+<hr>
+
+<h2>Improved Dashboard Cards</h2>
+<p>The top hero cards (Fortune, Performance, Progress) have been redesigned for clarity:</p>
+<ul>
+  <li><strong>Icons on every section:</strong> Wallet icon for Fortune, chart icon for Performance, flag for Objective — instantly recognizable</li>
+  <li><strong>Visual separators:</strong> Cash and Holdings split by a clean divider instead of being squished together</li>
+  <li><strong>Color-coded P&amp;L:</strong> Realized gains are now green/red directly in the big number, not just in a small chip</li>
+  <li><strong>After-quota highlight:</strong> Your surplus/deficit vs the quota is now prominently shown with a flag icon</li>
+  <li><strong>Expenses with icon:</strong> Receipt icon makes expenses immediately identifiable</li>
+  <li><strong>Progress bar percentage:</strong> The quota progress bar now shows the % directly inside it</li>
+  <li><strong>Win rate colored:</strong> Green if above 50%, red if below — instant feedback</li>
+  <li>Larger progress bar (6px mobile / 8px desktop) for better visibility</li>
+</ul>
+
+<hr>
+
+<h2>Performance Optimizations</h2>
+<p>Under-the-hood improvements for smoother gameplay:</p>
+<ul>
+  <li><strong>Reduced UI updates:</strong> The game now updates the interface every 2 seconds (tied to market ticks) instead of every second — halving unnecessary work</li>
+  <li><strong>Cached calculations:</strong> Net worth, portfolio value, and unrealized P&amp;L are now cached and only recalculated when prices change</li>
+  <li><strong>Paint isolation:</strong> Top bar cards and stats are isolated with RepaintBoundary to prevent unnecessary redraws of the main content</li>
+</ul>
+
+<hr>
+
+<h2>Quality of Life</h2>
+<ul>
+  <li>All French translations updated to match the new casual vocabulary</li>
+  <li>Settings toggle persists between sessions</li>
+  <li>Expert mode can be toggled at any time without losing data</li>
+  <li>"Sell All" button now properly sized so the full text is visible in French</li>
+  <li>Robot "Wallet" renamed to <strong>"Earnings"</strong> (EN) / <strong>"Gains"</strong> (FR) for clarity — it's your robot's accumulated profits, not a portfolio</li>
+  <li>Fixed floating text overlays causing setState-during-build errors</li>
+  <li>Robot budget cap is now stable (based on capacity level, not volatile net worth)</li>
+</ul>
