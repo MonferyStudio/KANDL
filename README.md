@@ -28,7 +28,7 @@ StockOS is a single-player incremental game where you trade stocks across 16 mar
 - **State Management**: Provider (ChangeNotifier)
 - **Architecture**: Service-based (GameService, TutorialService, AchievementService, SettingsService, SaveService)
 - **Financial Values**: Custom `BigNumber` class for arbitrarily large numbers
-- **Platforms**: Web, Android, iOS, Windows, macOS, Linux
+- **Platforms**: Web, Android, Windows,
 
 ## Project Structure
 
