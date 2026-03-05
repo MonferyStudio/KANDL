@@ -1,10 +1,10 @@
-# StockOS
+# KANDL
 
 A roguelike stock trading idle game built with Flutter.
 
 ## About
 
-StockOS is a single-player incremental game where you trade stocks across 16 market sectors, manage a growing portfolio, and progress through prestige cycles with escalating financial targets. Values scale from humble dollars to absurdly large numbers using a custom BigNumber system.
+KANDL is a single-player incremental game where you trade stocks across 16 market sectors, manage a growing portfolio, and progress through prestige cycles with escalating financial targets. Values scale from humble dollars to absurdly large numbers using a custom BigNumber system.
 
 ## Features
 
@@ -28,59 +28,7 @@ StockOS is a single-player incremental game where you trade stocks across 16 mar
 - **State Management**: Provider (ChangeNotifier)
 - **Architecture**: Service-based (GameService, TutorialService, AchievementService, SettingsService, SaveService)
 - **Financial Values**: Custom `BigNumber` class for arbitrarily large numbers
-- **Platforms**: Web, Android, iOS, Windows, macOS, Linux
-
-## Project Structure
-
-```
-lib/
-  core/           # Enums, extensions, responsive utilities
-  data/           # Static data (companies, sectors, upgrades, prestige upgrades, achievements)
-  l10n/           # Localization (EN/FR)
-  models/         # Data models (Company, Position, Upgrade, BigNumber, etc.)
-  screens/        # Main screen (HomeScreen)
-  services/       # Business logic (GameService, TutorialService, SaveService, etc.)
-  theme/          # Theme definitions
-  widgets/        # UI components organized by feature
-    dashboard_view/
-    market_view/      # Composite view (Sectors + Stocks + News tabs)
-    trading_view/
-    positions_view/
-    prestige_shop/
-    achievements/
-    fintok/
-    ...
-```
-
-## Getting Started
-
-### Prerequisites
-
-- Flutter SDK >= 3.10.8
-- Dart SDK (included with Flutter)
-
-### Run locally
-
-```bash
-flutter pub get
-flutter run
-```
-
-### Build for web
-
-```bash
-flutter build web --release --no-tree-shake-icons --pwa-strategy none --no-web-resources-cdn
-```
-
-For itch.io deployment, run the post-processing script after building:
-
-```powershell
-./web_postprocess.ps1
-```
-
-## Screenshots
-
-*Coming soon*
+- **Platforms**: Web, Android, Windows,
 
 ## License
 
